@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="tela-professor.css">
+    <script src="tela-professor.js"></script>
     <title>Tela do Professor</title>
 </head>
 <body>
@@ -11,7 +12,7 @@
     <div class="container">
         <h1>COLÉGIO MAGNÓLIA LOURENÇO</h1>  
 
-        <input type="button" value="SAIR" class="button-sair" onclick="window.location.href='index.html'">
+        <input type="button" value="SAIR" class="button-sair" onclick="window.location.href='/tela-inicial/index.html'">
     </div>
     <div class="container2">
         <h2>ENSINO BÁSICO, FUNDAMENTAL E MÉDIO.</h2>
@@ -33,19 +34,8 @@
         <input type="button" value="AVISOS" class="buttons-direcao" onclick="window.location.href=''">
     </div>
 
-    <div class="direc">
-        <h1>Exemplo de Funções com Input</h1>
-    
-    <button id="showContentButton">Mostrar Conteúdo</button>
-    
-    <div id="newContent" class="hidden">
-        <h2>Novo Conteúdo</h2>
-        <p>Este é o conteúdo que aparece ao clicar no botão.</p>
-        <!-- Aqui você pode adicionar mais funções ou conteúdo -->
-        <button onclick="additionalFunction()">Clique para nova função</button>
-        <p id="additionalContent" class="hidden">Este é o resultado de uma função adicional.</p>
-
-    </div>
+    <button id="myButton">Click to Mount HTML</button>
+    <div id="contentContainer"></div>
 
     <footer>
         <div class="logico">
