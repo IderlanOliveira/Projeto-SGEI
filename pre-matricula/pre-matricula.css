@@ -93,8 +93,11 @@ h3 {
    
 }
 
-
-
+footer{
+    padding: 5%;
+    text-align: center;
+    color: #FFFFFF;
+}
 
 /* Media queries for responsiveness */
 @media (max-width: 768px) {

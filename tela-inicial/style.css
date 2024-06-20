@@ -65,6 +65,11 @@ body {
     height: auto;
 }
 
+footer{
+    padding: 5%;
+    color: #FFFFFF;
+}
+
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
     .container, .container2 {
